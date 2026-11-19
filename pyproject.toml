@@ -1,0 +1,26 @@
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+[project]
+name = "NetworkTrafficForecast"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.12"
+authors = [
+  {name = "Nadim Adham", email = "nadham@ethz.ch"},
+  {name = "Florian Foerg", email = "ffoerg@ethz.ch"},
+  {name = "Emiko Piani", email = "epiani@ethz.ch"},
+]
+description = ""
+# readme = "README.rst"
+# license = "MIT"
+# license-files = ["LICEN[CS]E.*"]
+keywords = ["Network Security", "ML"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+# Tooling that is not needed to capture a session, only to develop and evaluate.
+# Install with:  pip install -e '.[dev]'
+dev = [
+
+]
